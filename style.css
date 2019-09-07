@@ -59,13 +59,20 @@ box-align: center;
 margin-left:-0.2em;
 border-color: #534040;
 margin-top:0.5em;
-background: #C4C4C4;
+background: black;
 border-radius: 32px;
 border-style: dashed;
 border-width:-2em;
 }
 .chatScreen{
   display:none;
+}
+.menuButton{
+  position: absolute;;
+  width:2em;
+  margin-top:10em;
+  margin-left:5.7em;
+  color:white;
 }
 .message{
   position: absolute;
