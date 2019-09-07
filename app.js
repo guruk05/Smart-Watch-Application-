@@ -9,9 +9,10 @@ $(".message").click(function() {
     $(".chatScreen").show();
 }); 
 
-$(".").click(function() {
-    $(".").hide();
-    $(".").show();
+$(".music").click(function() {
+    $(".menuScreen").hide();
+    $(".homeScreen").hide();
+    $(".musicPlayer").show();
 });
 
 $(".").click(function() {
