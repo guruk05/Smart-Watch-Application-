@@ -181,6 +181,13 @@ border-radius: 8px;
   .message1detail{
     background: pink;
   }
+  chatDetails{
+    display
+  }
+
+  .musicPlayer{
+    display:none;
+  }
 
  /* .messages{
   position: absolute;
