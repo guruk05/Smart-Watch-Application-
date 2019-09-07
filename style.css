@@ -56,6 +56,9 @@ border-radius: 32px;
 border-style: dashed;
 border-width:-2em;
 }
+.menuScreen{
+  display:none;
+}
 .chatScreen{
   display:none;
 }
