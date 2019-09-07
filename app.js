@@ -9,13 +9,11 @@ $(".message").click(function() {
     $(".chatScreen").show();
 }); 
 
-// $(".music").click(function() {
-//     $(".menuScreen").hide();
-//     $(".homeScreen").hide();
-//     $(".chatScreen").hide();
-//     $(".chatDetails").hide();
-//     $(".musicPlayer").show();
-// });
+$(".music").click(function() {
+    $(".menuScreen").hide();
+    $(".homeScreen").hide();
+    $(".musicPlayer").show();
+});
 
 $(".").click(function() {
     $(".").hide();
