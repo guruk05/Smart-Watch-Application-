@@ -14,27 +14,19 @@ h1{
   padding-top:7.5em;
 }
 #firstRow{
-  background-color:;
   height: 13.5em;  
 }
 #secondRow{
-  /* background-color: black; */
   height: 13.5em;
 }
 #thirdRow{
-  background-color:;
   height: 14em;
-}
-#secondColumn{
-  /* position: absolute; */
-  background-color;
-  
-}
+}  
 .strap1{
 position: absolute; 
 width: 99px;
 height: 139px;  
-background: #5F5757;
+background: #552E24;
 -webkit-border-radius: 45px 45px 45px 45px / 90px 90px 90px 90px;
 border-radius: 50% 50% 2% 2% / 25% 25% 2% 2% ;
 margin-top:6em;
@@ -44,7 +36,7 @@ margin-left:3em;
 position: absolute; 
 width: 99px;
 height: 139.64px;
-background: #5F5757;
+background: #552E24;
 transform: rotate(179.95deg);
 -webkit-border-radius: 45px 45px 45px 45px / 90px 90px 90px 90px;
 border-radius: 50% 50% 2% 2% / 25% 25% 2% 2% ;
@@ -80,7 +72,7 @@ border-width:-2em;
   width: 27px;
   height: 23px;
   margin-left:1.5em;
-  margin-top:10em;
+  margin-top:6em;
 }
 .music{
 position: absolute;
@@ -88,7 +80,7 @@ color:white;
 width: 35px;
 height: 30px;
 margin-left: 5.7em;
-margin-top:10em;
+margin-top:6em;
 }
 .timer{
 position: absolute;
@@ -96,7 +88,7 @@ color:white;
 width: 24px;
 height: 24px;
 margin-left:10em;
-margin-top:10em;
+margin-top:6em;
 }
 
 /* home screen */
