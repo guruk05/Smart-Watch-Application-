@@ -56,12 +56,7 @@ border-radius: 32px;
 border-style: dashed;
 border-width:-2em;
 }
-.menuScreen{
-  display:none;
-}
-.chatScreen{
-  display:none;
-}
+
 .menuButton{
   position: absolute;;
   width:2em;
@@ -69,6 +64,13 @@ border-width:-2em;
   margin-left:5.7em;
   color:white;
 }
+
+/* menu Screen styles */
+
+.menuScreen{  
+  display:none;
+}
+
 .message{
   position: absolute;
   color:white;
@@ -110,12 +112,15 @@ margin-top:6em;
 
 /* chat screen  */
 
+.chatScreen{
+  display:none;
+}
 .chats{
   position:absolute;
   text-align: center;
   justify-content: center;
   top:30%;
-  color:black;
+  color: brown;
   font-size: 23px;
   margin-left:1em;
   margin-top:-2em;
@@ -126,12 +131,12 @@ margin-top:6em;
   text-align: center;
   justify-content: center;
   top:40%;
-  color:black;
+  color: brown;
   font-size: 15px;
-  margin-left:8.5em;
+  margin-left:8em;
   margin-top:-4em;
 }
- .messages{
+ /* .messages{
   position: absolute;
   width: 140px;
   height: 35px;
@@ -152,7 +157,7 @@ margin-top:6em;
   font-size: 13.5px;
   border: 2px solid black;
   border-radius: 8px;
-}  
+}   */
 /* .messages2{
   position: absolute;
   width: 140px;

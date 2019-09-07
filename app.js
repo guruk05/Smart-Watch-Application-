@@ -4,7 +4,7 @@ $(".menuButton").click(function() {
 });
 
 $(".message").click(function() {
-    $(".homeScreen").hide();
+    $(".menuScreen").hide();
     $(".chatScreen").show();
 });
 
