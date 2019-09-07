@@ -1,0 +1,217 @@
+/* .container.mainContainer{
+  margin:0;
+  padding:0;
+}
+.box{
+  position: absolute;
+  display:inline-block;
+  width:50%;
+  height:100%;
+}
+.box.box1{
+  background-color:blue;
+  /* text-align: center; */
+  /* padding: 250px 0;
+}  */
+/* .row .col.content{
+  background-color: green;
+  text-align: center;
+  margin-top:30px;
+}
+blink { */
+  /* animation: blinker 1.5s linear infinite;
+  color: #1c87c9; */
+ }
+/* @keyframes blinker {  
+  100% { opacity: 0; }
+ }
+.box.box2{
+  background-color: azure;
+  margin-left:50%;
+}
+.container-fluid{
+  height: 100%; 
+} */
+
+/* second part division */
+
+/* .secondHalf{
+  display:flex;
+  justify-content: center;
+}  */
+
+/* screen division ; */
+
+/* .container-fluid{
+  height: 100%; 
+  width: 100%;
+} */
+
+#r{
+  height: 100em;
+}
+
+#left{
+  background-color: blue;
+}
+#right{
+  /* background-color: blue; */
+}
+h1{
+  text-align: center;
+  justify-content: center;
+  padding-top:7.5em;
+}
+#firstRow{
+  background-color:;
+  height: 13.5em;  
+}
+#secondRow{
+  /* background-color: black; */
+  height: 13.5em;
+}
+#thirdRow{
+  background-color:;
+  height: 14em;
+}
+#secondColumn{
+  /* position: absolute; */
+  background-color;
+  
+}
+.strap1{
+position: absolute; 
+width: 99px;
+height: 139px;  
+background: #5F5757;
+-webkit-border-radius: 45px 45px 45px 45px / 90px 90px 90px 90px;
+border-radius: 50% 50% 2% 2% / 25% 25% 2% 2% ;
+margin-top:6em;
+margin-left:3em;
+}
+.strap2{
+position: absolute; 
+width: 99px;
+height: 139.64px;
+background: #5F5757;
+transform: rotate(179.95deg);
+-webkit-border-radius: 45px 45px 45px 45px / 90px 90px 90px 90px;
+border-radius: 50% 50% 2% 2% / 25% 25% 2% 2% ;
+margin-left:3em;
+top:-0.49em;
+} 
+.outerdial{
+position: absolute;;
+width: 13em;
+height: 12.5em;
+box-align: center;
+margin-left:-0.2em;
+border-color: #534040;
+margin-top:0.5em;
+background: #C4C4C4;
+border-radius: 32px;
+border-style: dashed;
+border-width:-2em;
+}
+.chatScreen{
+  display:none;
+}
+.message{
+  position: absolute;
+  width: 27px;
+  height: 23px;
+  margin-left:1.5em;
+  margin-top:10em;
+}
+.music{
+position: absolute;
+width: 35px;
+height: 30px;
+margin-left: 5.5em;
+margin-top:10em;
+}
+.timer{
+position: absolute;
+width: 24px;
+height: 24px;
+margin-left: 10em;
+margin-top:10em;
+}
+
+/* home screen */
+
+.time{
+  position:absolute;
+  text-align: center;
+  justify-content: center;
+  top:40%;
+  color:black;
+  font-size: 2em;
+  margin-left:1.3em;
+  margin-top:-1.5em;
+}
+
+
+/* chat screen  */
+
+.chats{
+  position:absolute;
+  text-align: center;
+  justify-content: center;
+  top:30%;
+  color:black;
+  font-size: 23px;
+  margin-left:1em;
+  margin-top:-2em;
+}
+
+.chatTime{
+  position:absolute;
+  text-align: center;
+  justify-content: center;
+  top:40%;
+  color:black;
+  font-size: 15px;
+  margin-left:8.5em;
+  margin-top:-4em;
+}
+ .messages{
+  position: absolute;
+  width: 140px;
+  height: 35px;
+  background: white;
+  margin-top:4em;
+  margin-left:3em;
+  font-size: 14px;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+ .messages1{
+  position: absolute;
+  width: 140px;
+  height: 35px;
+  background: white;
+  margin-top:7em;
+  margin-left:3em;
+  font-size: 13.5px;
+  border: 2px solid black;
+  border-radius: 8px;
+}  
+/* .messages2{
+  position: absolute;
+  width: 140px;
+  height: 35px;
+  background: white;
+  margin-top:10em;
+  margin-left:3em;
+  font-size: 13.5px;
+  border: 2px solid black;
+  border-radius: 8px;
+}   */
+/* messageScroll{
+  background-color: #eee;
+  width: 200px;
+  height: 50px;
+  border: 1px dotted black;
+  overflow: auto;
+} */
