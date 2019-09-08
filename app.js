@@ -6,14 +6,21 @@ $(".menuButton").click(function() {
 
 $(".message").click(function() {
     $(".menuScreen").hide();
+    $(".musicPlayer").hide();
+    $(".chatDetails").hide();
     $(".chatScreen").show();
 }); 
 
 $(".music").click(function() {
     $(".menuScreen").hide();
-    $(".homeScreen").hide();
+    $(".chats").hide();
+    $(".chatTime").hide();
+    $(".messages").hide();
+    $(".messages1").hide();
+    $(".messages2").hide();
+    $(".chatDetails").hide();
     $(".musicPlayer").show();
-});
+}); 
 
 $(".").click(function() {
     $(".").hide();
