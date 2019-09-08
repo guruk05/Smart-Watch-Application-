@@ -1,257 +1,260 @@
-#r{
-  height: 100em;
+body {
+  font-family: Arial;
+  color: white;
 }
 
-#left{
-  background-color: blue;
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
 }
-#right{
-  /* background-color: blue; */
+
+.left {
+  left: 0;
+  background-color: #1871c9;
 }
-h1{
+
+.right {
+  right: 0;
+  background-color: #ffffff;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
-  justify-content: center;
-  padding-top:7.5em;
 }
-#firstRow{
-  height: 13.5em;  
+
+.centered img {
+  width: 150px;
+  border-radius: 50%;
 }
-#secondRow{
-  height: 13.5em;
+
+/*  ----------------------- Watch components --------------------------------- */
+.outerdial{
+position: relative; 
+width: 250px;
+height: 250px;
+box-align: center;
+margin-left:-0.2em;
+border-color: #534040;
+margin-top:0.1em;
+margin-bottom:0.6em;
+background: black;
+border-radius: 32px;
+border-style: inset outset;
+border-width:-2em;
 }
-#thirdRow{
-  height: 14em;
-}  
+
 .strap1{
-position: absolute; 
-width: 99px;
+position: relative; 
+width: 159px;
 height: 139px;  
-background: #552E24;
+background: #824500;
 -webkit-border-radius: 45px 45px 45px 45px / 90px 90px 90px 90px;
 border-radius: 50% 50% 2% 2% / 25% 25% 2% 2% ;
 margin-top:6em;
 margin-left:3em;
+border-style: solid;
 }
+
 .strap2{
-position: absolute; 
-width: 99px;
-height: 139.64px;
-background: #552E24;
+position: relative; 
+width: 159px;
+height: 139px;
+background: #824500;
 transform: rotate(179.95deg);
 -webkit-border-radius: 45px 45px 45px 45px / 90px 90px 90px 90px;
 border-radius: 50% 50% 2% 2% / 25% 25% 2% 2% ;
 margin-left:3em;
 top:-0.49em;
+border-style: solid;
 } 
-.outerdial{
-position: absolute;;
-width: 13em;
-height: 12.5em;
+/*-----------------------------------------------------------------------------*/
+
+/* ------------------------ Slider css ----------------------------------------*/
+.slidecontainer {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.2;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 0.4;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 40px;
+  height: 30px;
+  border-radius: 10%;
+  background: #2aa0db;
+  cursor: grab;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 35px;
+  border-radius: 50%;
+  background: #4CAF50;
+  cursor: grab;
+}
+/* ----------------------------------------------------------------------------*/
+
+/* ------------------------ Glyphicons ----------------------------------------*/
+.glyphicon {
+  position: relative;
+  font-size: 25px;
+  color: #2aa0db;
+}
+
+.glyphicon.glyphicon-envelope {
+  position: relative;
+  font-size: 25px;
+  color: #2aa0db;
+}
+.glyphicon.glyphicon-headphones {
+  position: relative;
+  font-size: 25px;
+  color: #2aa0db;
+}
+.glyphicon.glyphicon-time {
+  position: relative;
+  font-size: 25px;
+  color: #2aa0db;
+}
+/* ----------------------------------------------------------------------------*/
+.setLocation {
+  position: relative; 
+  margin-left: 15px;
+  margin-top: 193px;
+  margin-bottom: 2px;
+}
+
+table, thead, th {
+  border-collapse: collapse;
+  border: none !important;
+}
+
+.tableAlign {
+  position: relative; 
+  margin-left: 13px;
+  margin-top: 140px;
+  margin-bottom: 2px;
+}
+
+.tableAlign1 {
+  position: relative; 
+  margin-left: 13px;
+  margin-top: 0px;
+  margin-bottom: 2px;
+}
+
+.tableAlign.first {
+  border-bottom:1px solid #EEE;
+}
+.tableAlign.second {
+  border-bottom:1px solid #EEE;
+}
+.tableAlign.third {
+  border-top:1px solid #CCC;box-shadow: inset 0 1px 0 #CCC;
+}
+/* ----------------- Message body ------------------------------ */
+.iframeSize {
+  position: relative; 
+width: 240px;
+height: 200px;
 box-align: center;
-margin-left:-0.2em;
+margin-left: -0.9em;
 border-color: #534040;
-margin-top:0.5em;
+margin-top:0.1em;
+margin-bottom:0.1em;
 background: black;
 border-radius: 32px;
-border-style: dashed;
+border-style: inset outset;
 border-width:-2em;
 }
-
-.menuButton{
-  position: absolute;;
-  width:2em;
-  margin-top:10em;
-  margin-left:5.7em;
-  color:white;
-}
-
-/* menu Screen styles */
-
-.menuScreen{  
-  display:none;
-}
-
-.message{
-  position: absolute;
-  color:white;
-  width: 27px;
-  height: 23px;
-  margin-left:1.5em;
-  margin-top:6em;
-}
-.music{
-position: absolute;
-color:white;
-width: 35px;
-height: 30px;
-margin-left: 5.7em;
-margin-top:6em;
-}
-.timer{
-position: absolute;
-color:white;
-width: 24px;
-height: 24px;
-margin-left:10em;
-margin-top:6em;
-}
-
-/* home screen */
-
-.time{
-  position:absolute;
-  text-align: center;
-  justify-content: center;
-  top:40%;
-  color:black;
-  font-size: 2em;
-  margin-left:1.3em;
-  margin-top:-1.5em;
-}
-
-
-/* chat screen  */
-
-.chatScreen{
-  display:none;
-}
-.chats{
-  position:absolute;
-  text-align: center;
-  justify-content: center;
-  top:30%;
-  color: brown;
-  font-size: 23px;
-  margin-left:1em;
-  margin-top:-2em;
-}
-
-.chatTime{
-  position:absolute;
-  text-align: center;
-  justify-content: center;
-  top:40%;
-  color: brown;
-  font-size: 15px;
-  margin-left:8em;
-  margin-top:-4em;
-}
-#messageBox{
-  background-color:;
-  margin-top:3em;
-  height:9em;
-  width:10.5em;
-  margin-left: 1.5em;
-  background-color: ;
-  width: 11em;
-  height: 7em;
-  overflow: scroll;
-}
-
-.messages{
-position: absolute;
-margin-top:0.3em;
-width: 8.9em;
-height: 3em;
-background: #FFF2F2;
-border: 2px solid white;
-border-radius: 8px;
-}
-
-.messages1{
-  position: absolute;
-  margin-top:4em;
-  width: 8.9em;
-  height: 3em;
-  background: #FFF2F2;
-  border: 2px solid white;
-  border-radius: 8px;
-  }
-
-  .messages2{
-    position: absolute;
-    margin-top:8em;
-    width: 8.9em;
-    height: 3em;
-    background: #FFF2F2;
-    border: 2px solid white;
-    border-radius: 8px;
+/* ------------------------------------------------------------- */
+  table, thead, tbody, th {
+    border-collapse: collapse;
+    border: none !important;
+    background-color: black !important;
     }
-  .chatDetails{
-    display:none;
+    /* width */
+    ::-webkit-scrollbar {
+    width: 20px;
     }
-
-  .message1detail{
-    background: pink;
-  }
-
-  /* music player style starts here  */
-
-  .musicPlayer{
-    display:none;
-  }
-
-  musicTime{
-    position:absolute;
-    text-align: center;
-    justify-content: center;
-    top:40%;
+    /* Track */
+    ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+    }
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+    background: #2aa0db; 
+    border-radius: 10px;
+    }
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+    background: #092454; 
+    }
+    .inputTimer {
+    position: relative;
+    background-color: black;
+    font-family: Arial;
+    font-size: 2.2em;
     color: white;
-    font-size: 15px;
-    margin-left:8em;
-    margin-top:-4em;  
-  }
-
-  musicName{
-    position:absolute;
-  text-align: center;
-  justify-content: center;
-  top:30%;
-  color: white;
-  font-size: 23px;
-  margin-left:1em;
-  margin-top:-10em;
-  }
-
-
-
- /* .messages{
-  position: absolute;
-  width: 140px;
-  height: 35px;
-  background: white;
-  margin-top:4em;
-  margin-left:3em;
-  font-size: 14px;
-  border: 2px solid black;
-  border-radius: 8px;
-}
- .messages1{
-  position: absolute;
-  width: 140px;
-  height: 35px;
-  background: white;
-  margin-top:7em;
-  margin-left:3em;
-  font-size: 13.5px;
-  border: 2px solid black;
-  border-radius: 8px;
-}   */
-/* .messages2{
-  position: absolute;
-  width: 140px;
-  height: 35px;
-  background: white;
-  margin-top:10em;
-  margin-left:3em;
-  font-size: 13.5px;
-  border: 2px solid black;
-  border-radius: 8px;
-}   */
-/* messageScroll{
-  background-color: #eee;
-  width: 200px;
-  height: 50px;
-  border: 1px dotted black;
-  overflow: auto;
-} */
+    margin-top: 10px;
+    margin-left: 60px;
+    }
+    .inputTimer2 {
+       position: relative;
+      background-color: black;
+      font-family: Arial;
+      font-size: 1em;
+      color: white;
+      margin-top: 10px;
+      margin-left: 60px;
+    }
+    /* ------------------------ Glyphicons ----------------------------------------*/
+    .glyphicon {
+    position: relative;
+    font-size: 20px;
+    color: #2aa0db;
+    }
+    .glyphicon.glyphicon-play {
+    position: relative;
+    font-size: 20px;
+    color: #2aa0db;
+    }
+    .glyphicon.glyphicon-pushpin {
+    position: relative;
+    font-size: 20px;
+    color: #2aa0db;
+    }
+    .glyphicon.glyphicon-repeat {
+    position: relative;
+    font-size: 20px;
+    color: #2aa0db;
+    }
+    .tableAlign {
+    border-left: 10px;
+    }
