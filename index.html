@@ -4,146 +4,162 @@ and also to use lap timer -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Bootstrap</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Smart Watch</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- <div class="main"> -->
-            <div class="container-fluid">
-                <div class ="row" id="r">
-                    <div class="col" id="left">
-                    <h1><blink><font color = "white">Smart</font> <Span><font color ="black">Watch</font></blink></font></Span></h1>
-                    </div>
-                   
-                <div class="col" id="right">
-
-            <!-- <div class = "container-fluid leftContainer"> -->
-                        
-                <div class = "row" id = "firstRow">
-                        <div class ="col" id = "firstColumn"></div>
-                        <div class ="col" id = "secondColumn">
-                        <div class = "strap1"></div>
-                        </div>
-                        <div class = "col" id = "thirdColumn"></div>
-                        </div>
-
-
-
-                <div class = "row" id = "secondRow">
-                        <div class = "col" id = "middleColumn1"></div>
-                        <div class = "col" id = "middleColumn2">
-                        <div class = "outerdial"></div>
-               
-              <!-- home screen menu button -->
-                        
-                        <div class = "menuButton"><i class="fa fa-bars"></i></div>
-
-             <!-- menu screen starts here -->
-
-                        <div class = "menuScreen">
-                        <div class = "message"><i class="fa fa-envelope"></i></div>
-                        <div class = "music"><i class="fa fa-music"></i></div>
-                        <div class = "timer"><i class="fa fa-hourglass"></i></div>
-                        </div>
-
-             <!-- home screen starts here  -->
-
-                <div class = "homeScreen" id = "home">
-                        <div class = "time"><strong>5.09 pm</strong></div>
-                        </div> 
-
-            <!-- message screen starts here -->
-
-                <div class = "chatScreen" id = "chat">
-                        <!-- <div class = "chats"><strong>Chats</strong></div>
-                        <div class = "chatTime"><strong>5.09 pm</strong></div> -->
-                        <div class = "col" id="messageBox">
-                        <!-- <div class = "messages"><span><li>Hi,how are you...</li></span><span></div> 
-                        <div class = "messages1"> <li>Good morning ! ...</li></div>
-                        <div class = "messages2"> <li>can we catch up<span>today ?</span></li></div> -->
-                        
-
-             <!-- detailed view of chats starts here -->
-                        
-             
-                <!-- <div class = "chatDetails">
-                        <div class ="message1detail">jbHBhdb<br>
-                        </div>
-                        <div class ="message2Detail">sdbhj<br> sdbhsbd</div>
-                        <div class ="message3detail"></div>
-
-                        </div> -->
-
-                        <div class = "musicPlayer">
-                            <div class = "musicName"><strong>Music</strong></div>
-                            <div class = "musicTime"><strong>5.09 pm</strong></div>
-                            <iframe src="https://open.spotify.com/embed/album/1DFixLWuPkv3KT3TnV35m3" width="250" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                        </div>
-                        </div>
-                    </div>
-
-
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="split left">
+        <div class="centered">
+          <h1><strong>Smart</strong> <span><strong><font color="black">Watch</font></strong></span></h1>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="split right">
+        <div class="centered">
+          <div class="row">
+            <div class="strap1"></div>
+          </div>
+          <div class="row">
+            <div class="outerdial">
+              <!-- LockScreen Container starts -->
+              <div id="lockScreenId" class="container-fluid">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h2><span><font color="white">02:53</font></span></h2><br>
+                    <h4><span><font color="white">Sun, September 8</font></span></h4></h4>
+                  </div>
                 </div>
-                
-                <div class = "col" id = "middleColumn3"></div>
-                        </div>
-
-
-
-                <div class = "row" id = "thirdRow">
-                        <div class = "col" id = "lastColumn1"></div>
-                        <div class = "col" id = "lastColumn2">
-                        <div class = "strap2"></div>
-                        </div>
-                        <div class = "col" id ="lastColumn"></div>
-                        </div>
-
-                    </div>
-
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h4><span><font color="#2aa0db">Swipe to unlock</font></span></h4>
+                  </div>
                 </div>
+                <div class="row">
+                  <div class="slidecontainer">
+                    <input type="range" min="1" max="100" value="5" class="slider" id="myRange">
+                  </div>
+                </div>
+              </div>
+              <!-- LockScreen Container ends -->
 
+              <!-- icons Container starts -->
+              <div id="iconPacks" class="container-fluid">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h2><span><font color="white">Welcome </font></span>
+                      <span><font color="#2aa0db">back</font></span></h2>
+                  </div>
+                </div>
+                <table class="table table-borderless tableAlign">
+                    <thead>
+                      <th onclick="messageSel()" scope="col">
+                        <span class="glyphicon glyphicon-envelope"></span>
+                      </th>
+                      <th onclick="musicSel()" scope="col">
+                        <span class="glyphicon glyphicon-headphones"></span>
+                      </th>
+                      <th onclick="timeSel()" scope="col">
+                        <span class="glyphicon glyphicon-time"></span>
+                      </th>
+                      <th onclick="homeSel()" scope="col">
+                        <span class="glyphicon glyphicon-home"></span>
+                      </th>
+                    </thead>
+                  </table>
+              </div>
+              <!-- icons Container ends -->
+
+              <!-- Message Container starts -->
+              <div id="message_body" class="container-fluid outerdial">
+                <iframe id="mesFrame" allowfullscreen frameborder="0" class="iframeSize" src="./message_body.html" scrolling="yes" class="embed-responsive-item">
+                </iframe>
+                  <table class="table table-borderless tableAlign1">
+                    <thead>
+                      <th id="changeMessage" onclick="messageSel1()" scope="col">
+                        <span class="glyphicon glyphicon-envelope"></span>
+                      </th>
+                      <th onclick="musicSel1()" scope="col">
+                        <span class="glyphicon glyphicon-headphones"></span>
+                      </th>
+                      <th onclick="timeSel1()" scope="col">
+                        <span class="glyphicon glyphicon-time"></span>
+                      </th>
+                      <th onclick="homeSel()" scope="col">
+                        <span class="glyphicon glyphicon-home"></span>
+                      </th>
+                    </thead>
+                  </table>
+              </div>
+              <!-- Message Container ends -->
+
+              <!-- Music Container starts -->
+              <div id="music_body" class="container-fluid outerdial">
+                  <iframe id="musicFrame" allowfullscreen frameborder="0" class="iframeSize" src="https://w.soundcloud.com/player/?visual=true&#038;url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F130413747&#038;show_artwork=true&#038;maxwidth=810&#038;maxheight=1000&#038;dnt=1" scrolling="yes" class="embed-responsive-item">
+                </iframe>
+                  <table class="table table-borderless tableAlign1">
+                    <thead>
+                      <th id="changeMessage" onclick="messageSel1()" scope="col">
+                        <span class="glyphicon glyphicon-envelope"></span>
+                      </th>
+                      <th onclick="musicSel1()" scope="col">
+                        <span class="glyphicon glyphicon-headphones"></span>
+                      </th>
+                      <th onclick="timeSel1()" scope="col">
+                        <span class="glyphicon glyphicon-time"></span>
+                      </th>
+                      <th onclick="homeSel()" scope="col">
+                        <span class="glyphicon glyphicon-home"></span>
+                      </th>
+                    </thead>
+                  </table>
+              </div>
+              <!-- Music Container ends -->
+
+              <!-- Timer Container starts -->
+              <div id="timer_body" class="container-fluid outerdial">
+                  <iframe id="mesFrame" allowfullscreen frameborder="0" class="iframeSize" src="./timer.html" scrolling="yes" class="embed-responsive-item">
+                </iframe>
+                  <table class="table table-borderless tableAlign1">
+                    <thead>
+                      <th id="changeMessage" onclick="messageSel1()" scope="col">
+                        <span class="glyphicon glyphicon-envelope"></span>
+                      </th>
+                      <th onclick="musicSel()" scope="col">
+                        <span class="glyphicon glyphicon-headphones"></span>
+                      </th>
+                      <th onclick="timeSel()" scope="col">
+                        <span class="glyphicon glyphicon-time"></span>
+                      </th>
+                      <th onclick="homeSel()" scope="col">
+                        <span class="glyphicon glyphicon-home"></span>
+                      </th>
+                    </thead>
+                  </table>
+              </div>
+              <!-- Timer Container ends -->
             </div>
-
-                        
-
-                <!-- <div class ="homeScreen">
-                <div class = "innermessage"><i class="fa fa-envelope"></i></div> 
-                        <div class = "time"><strong>5.09pm</strong></div>
-                        <br> 
-                        <hr class = "hrline">
-                <div class ="greeting">GoodEve</div>
-                </div> -->
-
-         <!-- chat screen -->
-<!-- 
-                 <div class = "chatScreen">
-                        <div class = "chats"><strong>Chats</strong></div>
-                        <br>
-                        <hr class ="hrline1">
-                        <div class = "chatTime"><strong>5.09 pm</strong></div>
-                        <div class = "messages"><span><li>Hi,how are you...</li></span><span></div>
-                        <div class = "messages1"> <li>Good morning ! ...</li></div>
-                        <div class = "messages2"> <li>Happy birthday ! ...</li></div>
-                        </div> --> 
-                            
-
-   
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
-    <script src="app.js"></script>
+          </div>
+          <div class="row">
+            <div class="strap2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
 </body>
 </html>
+<script src ="app.js"></script>
