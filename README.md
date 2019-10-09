@@ -9,9 +9,10 @@
   JAVASCRIPT
   
 ## Design
-  ![smart watch.PNG](smart watch design.PNG)
+
+  ![smart watch.PNG](smartwatchdesign.PNG)
   
-  ![smart watch.PNG](smart watch design1.PNG)
+  ![smart watch.PNG](smartwatchdesign1.PNG)
   
 ## preview 
  
