@@ -2,7 +2,7 @@
  A smart Watch application which provides the user to access the functionalities of viewing time,messages and also to use lap timer.
  
 # Author
-Guru Prasath
+#### <a href="https://github.com/guruk05">Guru Prasath</a>
  
 ## Build With
 
