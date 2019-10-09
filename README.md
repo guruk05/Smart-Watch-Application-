@@ -12,11 +12,13 @@
   ##### CSS 
   ##### JAVASCRIPT
   
+  
 ## Design
 
   ![smart watch.PNG](smartwatchdesign.PNG)
   
   ![smart watch.PNG](smartwatchdesign1.PNG)
+  
   
 ## preview 
  
