@@ -1,6 +1,9 @@
 # Smart-Watch-Application-
  A smart Watch application which provides the user to access the functionalities of viewing time,messages and also to use lap timer.
  
+# Author
+Guru Prasath
+ 
 ## Build With
 
   HTML
