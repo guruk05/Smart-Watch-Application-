@@ -8,6 +8,10 @@
   CSS
   JAVASCRIPT
   
+## Design
+  ![smart watch design.PNG](designr1.PNG)
+  
+  ![smart watch design1.PNG](designr1.PNG)
   
 ## preview 
  
