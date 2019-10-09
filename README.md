@@ -7,10 +7,10 @@
  
 ## Build With
 
-  #### HTML
-  #### BOOTSTRAP
-  #### CSS 
-  #### JAVASCRIPT
+  ##### HTML
+  ##### BOOTSTRAP
+  ##### CSS 
+  ##### JAVASCRIPT
   
 ## Design
 
